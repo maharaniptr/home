@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>awal</title>
+	<link rel="stylesheet" type="text/css" href="css/awal.css">
+</head>
+<body>
+	<div class="container-login100" style="background-image: url(image/bg4.png);">
+  		<div class="wrap-login100">
+     		<span class="login100-form-title">
+        	Click disini ya
+     		</span>
+     		<br>
+     		<span class="login100-form-title">
+        		<button onclick="Awal()" class="btn">Click it</button>
+				<p id="demo"></p>
+    		</span>
+		</div>
+	</div>
+	<script>
+		function Awal() 
+		{
+			var person = prompt("Masukkan nama anda jika ingin masuk: ");
+			if (person == "Bismillah") 					
+			{
+				alert("Nama yang anda masukkan benar! ");
+				window.location="uts.html";
+			}
+   			else
+   			{
+   				alert("Nama yang anda masukkan salah!!!");
+   				window.location="akhir.html"
+   			}
+		}
+	</script>
+
+</body>
+</html>
